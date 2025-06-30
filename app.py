@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return ('Hello brevjizino ok temo test')
+    return ('Hello brevjizino')
 
 if __name__ == '__main__':
     # listen on all interfaces (access via localhost)
